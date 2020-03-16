@@ -1,0 +1,10 @@
+/Users/natepaneva/Desktop/C#/Homeworks/Break_Homework/bin/Debug/netcoreapp3.1/Break_Homework.deps.json
+/Users/natepaneva/Desktop/C#/Homeworks/Break_Homework/bin/Debug/netcoreapp3.1/Break_Homework.runtimeconfig.json
+/Users/natepaneva/Desktop/C#/Homeworks/Break_Homework/bin/Debug/netcoreapp3.1/Break_Homework.runtimeconfig.dev.json
+/Users/natepaneva/Desktop/C#/Homeworks/Break_Homework/bin/Debug/netcoreapp3.1/Break_Homework.dll
+/Users/natepaneva/Desktop/C#/Homeworks/Break_Homework/bin/Debug/netcoreapp3.1/Break_Homework.pdb
+/Users/natepaneva/Desktop/C#/Homeworks/Break_Homework/obj/Debug/netcoreapp3.1/Break_Homework.csprojAssemblyReference.cache
+/Users/natepaneva/Desktop/C#/Homeworks/Break_Homework/obj/Debug/netcoreapp3.1/Break_Homework.AssemblyInfoInputs.cache
+/Users/natepaneva/Desktop/C#/Homeworks/Break_Homework/obj/Debug/netcoreapp3.1/Break_Homework.AssemblyInfo.cs
+/Users/natepaneva/Desktop/C#/Homeworks/Break_Homework/obj/Debug/netcoreapp3.1/Break_Homework.dll
+/Users/natepaneva/Desktop/C#/Homeworks/Break_Homework/obj/Debug/netcoreapp3.1/Break_Homework.pdb
