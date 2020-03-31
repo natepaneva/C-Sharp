@@ -1,0 +1,10 @@
+/Users/natepaneva/Desktop/C#/Homeworks/Homework4/bin/Debug/netcoreapp3.1/Homework4.deps.json
+/Users/natepaneva/Desktop/C#/Homeworks/Homework4/bin/Debug/netcoreapp3.1/Homework4.runtimeconfig.json
+/Users/natepaneva/Desktop/C#/Homeworks/Homework4/bin/Debug/netcoreapp3.1/Homework4.runtimeconfig.dev.json
+/Users/natepaneva/Desktop/C#/Homeworks/Homework4/bin/Debug/netcoreapp3.1/Homework4.dll
+/Users/natepaneva/Desktop/C#/Homeworks/Homework4/bin/Debug/netcoreapp3.1/Homework4.pdb
+/Users/natepaneva/Desktop/C#/Homeworks/Homework4/obj/Debug/netcoreapp3.1/Homework4.csprojAssemblyReference.cache
+/Users/natepaneva/Desktop/C#/Homeworks/Homework4/obj/Debug/netcoreapp3.1/Homework4.AssemblyInfoInputs.cache
+/Users/natepaneva/Desktop/C#/Homeworks/Homework4/obj/Debug/netcoreapp3.1/Homework4.AssemblyInfo.cs
+/Users/natepaneva/Desktop/C#/Homeworks/Homework4/obj/Debug/netcoreapp3.1/Homework4.dll
+/Users/natepaneva/Desktop/C#/Homeworks/Homework4/obj/Debug/netcoreapp3.1/Homework4.pdb
