@@ -67,13 +67,7 @@ namespace Homework5_Classes
 
                     //while (inputNumberParsed)
                     //{
-                    //    switch (number)
-                    //    {
-                    //        case 1:
-
-                    //        default:
-                    //            break;
-                    //    }
+                    //   
                     //}
 
 
