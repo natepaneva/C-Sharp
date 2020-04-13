@@ -1,0 +1,36 @@
+﻿<Properties StartupConfiguration="{C8131E8B-27A9-4C14-BF41-70D4F97EDF97}|Default">
+  <MonoDevelop.Ide.ItemProperties.Homework5-Classes PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Services/HelperService.cs">
+    <Files>
+      <File FileName="Program.cs" Line="14" Column="10" />
+      <File FileName="Services/AnimalService.cs" Line="27" Column="19" />
+      <File FileName="Domain/Animal.cs" Line="7" Column="41" />
+      <File FileName="Domain/Owner.cs" Line="3" Column="2" />
+      <File FileName="Services/OwnerService.cs" Line="1" Column="1" />
+      <File FileName="Services/HelperService.cs" Line="6" Column="31" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Homework5-Classes" expanded="True">
+            <Node name="Homework5-Classes" expanded="True">
+              <Node name="Domain" expanded="True" />
+              <Node name="Services" expanded="True">
+                <Node name="HelperService.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
