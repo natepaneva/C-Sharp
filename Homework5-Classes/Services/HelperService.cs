@@ -12,14 +12,5 @@ namespace Homework5_Classes.Services
                 return false;
             return true;
         }
-
-        //public bool ValidateNumber(int number, int range)
-        //{
-        //    if (number <= range)
-        //    {
-        //        return true
-        //    }
-        //    return false
-        //}
     }
 }

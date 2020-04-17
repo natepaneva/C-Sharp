@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/natepaneva/Desktop/C#/Homeworks/Homework5-Classes/Homework5-Classes.csproj": {}
+    "/Users/natepaneva/Documents/GitHub/C-Sharp/Homework5-Classes/Homework5-Classes.csproj": {}
   },
   "projects": {
-    "/Users/natepaneva/Desktop/C#/Homeworks/Homework5-Classes/Homework5-Classes.csproj": {
+    "/Users/natepaneva/Documents/GitHub/C-Sharp/Homework5-Classes/Homework5-Classes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/natepaneva/Desktop/C#/Homeworks/Homework5-Classes/Homework5-Classes.csproj",
+        "projectUniqueName": "/Users/natepaneva/Documents/GitHub/C-Sharp/Homework5-Classes/Homework5-Classes.csproj",
         "projectName": "Homework5-Classes",
-        "projectPath": "/Users/natepaneva/Desktop/C#/Homeworks/Homework5-Classes/Homework5-Classes.csproj",
+        "projectPath": "/Users/natepaneva/Documents/GitHub/C-Sharp/Homework5-Classes/Homework5-Classes.csproj",
         "packagesPath": "/Users/natepaneva/.nuget/packages/",
-        "outputPath": "/Users/natepaneva/Desktop/C#/Homeworks/Homework5-Classes/obj/",
+        "outputPath": "/Users/natepaneva/Documents/GitHub/C-Sharp/Homework5-Classes/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/natepaneva/.config/NuGet/NuGet.Config"

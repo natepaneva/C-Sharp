@@ -2,9 +2,12 @@
   <MonoDevelop.Ide.ItemProperties.Homework5-Classes PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
     <Files>
-      <File FileName="Program.cs" Line="23" Column="1" />
-      <File FileName="Domain/Animal.cs" Line="26" Column="41" />
-      <File FileName="Services/AnimalService.cs" Line="33" Column="13" />
+      <File FileName="Program.cs" Line="71" Column="24" />
+      <File FileName="Domain/Animal.cs" Line="13" Column="1" />
+      <File FileName="Domain/Owner.cs" Line="1" Column="1" />
+      <File FileName="Services/AnimalService.cs" />
+      <File FileName="Services/HelperService.cs" Line="1" Column="1" />
+      <File FileName="Services/OwnerService.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -20,9 +23,6 @@
             </Node>
           </Node>
         </State>
-      </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>

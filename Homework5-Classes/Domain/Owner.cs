@@ -8,7 +8,7 @@ namespace Homework5_Classes.Domain
         public string LastName { get; set; }
         public int Age { get; set; }
         public string Address { get; set; }
-        public string[] Pets { get; set; }
+        public Animal[] Pets { get; set; }
         public string City { get; set; }
 
 
@@ -18,7 +18,7 @@ namespace Homework5_Classes.Domain
         }
 
 
-        public Owner (string firstName, string lastName, string city, string adress)
+        public Owner(string firstName, string lastName, string city, string adress)
         {
             FirstName = firstName;
             LastName = lastName;
@@ -26,11 +26,12 @@ namespace Homework5_Classes.Domain
             Address = adress;
         }
 
-        public Owner (string[] pets)
+        public Owner()
         {
-            Pets = pets;
+            Pets = new Animal[0];
         }
-    }
 
+        
+    }
    
 }

@@ -1,11 +1,18 @@
 ﻿using System;
 using Homework5_Classes.Domain;
+using Homework5_Classes.Services;
 
 
 namespace Homework5_Classes.Services
 {
     public class OwnerService
     {
+
+        public Owner[] owners = new Owner[0]
+        {
+
+
+        };
 
         private HelperService _helperService = new HelperService();
         public Owner[] Owners { get; set; }
@@ -34,19 +41,18 @@ namespace Homework5_Classes.Services
             return Owners[Owners.Length - 1];
         }
 
-        //public Owner PetsAdopted(Owner[] Pets)
-        //{
-        //    if (!_helperService.ValidateNumber(1, 5) ||
-        //        !_helperService.ValidateNumber(2, 5) ||
-        //        !_helperService.ValidateNumber(3, 5) ||
-        //        !_helperService.ValidateNumber(1, 5) ||
-        //        !_helperService.ValidateNumber(1, 5))
-        //    {
-        //        return null;
-        //    }
 
-        //    Pets[] newArr = Pets
-        //}
-        
+        public string AdoptAnimal(Animal animal, Owner owner, int indexNum)
+        {
+
+            Animal[] adoptedPets = owner.Pets;
+
+            Array.Resize(ref adoptedPets, adoptedPets.Length + 1);
+            adoptedPets[adoptedPets.Length - 1] = animal;
+            owner.Pets = adoptedPets;
+
+            return adoptedPets[indexNum - 1].Name;
+        }
+
     }
 }

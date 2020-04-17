@@ -52,10 +52,10 @@ namespace Homework5_Classes
                 {
                     Console.Clear();
                     Console.WriteLine("Cool. You are ready to adopt a pet!");
-                    Console.WriteLine(@"This is our list for pets which you can choose from by writing their number and pressing enter. You can adopt multiple pets! Enter ""N"" to stop!");
+                    Console.WriteLine(@"This is our list of pets which you can choose from by writing their number and pressing enter. You can adopt multiple pets! Enter ""N"" to stop!");
 
                     int counter = 1;
-                    foreach (Animal animal in _animalService.Animals)
+                    foreach (Animal animal in _animalService.petShelter)
                     {
                         Console.WriteLine($"{counter}. {animal.Name} the {animal.Specie}");
                         counter++;
@@ -65,20 +65,33 @@ namespace Homework5_Classes
                     int number;
                     bool inputNumberParsed = Int32.TryParse(inputNumber, out number);
 
-                    //while (inputNumberParsed)
-                    //{
-                    //   
-                    //}
+                    while (inputNumberParsed)
+                    {
+                       
+
+                        _adoptedPets = _ownerService.AdoptAnimal(_animalService.petShelter, _ownerService.Owners[0], number);
 
 
+                        if (_adoptedPets == null)
+                        {
+                            Console.WriteLine("You didn't choose any pet :(");
+                        }
+                        else if (Console.ReadLine().ToLower() == "n")
+                        {
+                            Console.WriteLine($"You have adopted {_adoptedPets.length} animals!");
 
+                            foreach (var pet in _adoptedPets)
+                            {
+                                Console.WriteLine($"\n{_adoptedPets[i]}. {pet}");
+                            }
+                            Console.WriteLine("Thank you!");
+                            break;
+                        }
 
+                    }
                 }
 
-
-                break;
-
-
+              
             }
 
         }

@@ -10,3 +10,15 @@
 /Users/natepaneva/Desktop/C#/Homeworks/Homework5-Classes/obj/Debug/netcoreapp3.1/Homework5-Classes.pdb
 /Users/natepaneva/Desktop/C#/Homeworks/Homework5-Classes/obj/Debug/netcoreapp3.1/Homework5-Classes.csproj.CoreCompileInputs.cache
 /Users/natepaneva/Desktop/C#/Homeworks/Homework5-Classes/obj/Debug/netcoreapp3.1/Homework5-Classes.genruntimeconfig.cache
+/Users/natepaneva/Documents/GitHub/C-Sharp/Homework5-Classes/bin/Debug/netcoreapp3.1/Homework5-Classes.deps.json
+/Users/natepaneva/Documents/GitHub/C-Sharp/Homework5-Classes/bin/Debug/netcoreapp3.1/Homework5-Classes.runtimeconfig.json
+/Users/natepaneva/Documents/GitHub/C-Sharp/Homework5-Classes/bin/Debug/netcoreapp3.1/Homework5-Classes.runtimeconfig.dev.json
+/Users/natepaneva/Documents/GitHub/C-Sharp/Homework5-Classes/bin/Debug/netcoreapp3.1/Homework5-Classes.dll
+/Users/natepaneva/Documents/GitHub/C-Sharp/Homework5-Classes/bin/Debug/netcoreapp3.1/Homework5-Classes.pdb
+/Users/natepaneva/Documents/GitHub/C-Sharp/Homework5-Classes/obj/Debug/netcoreapp3.1/Homework5-Classes.csprojAssemblyReference.cache
+/Users/natepaneva/Documents/GitHub/C-Sharp/Homework5-Classes/obj/Debug/netcoreapp3.1/Homework5-Classes.csproj.CoreCompileInputs.cache
+/Users/natepaneva/Documents/GitHub/C-Sharp/Homework5-Classes/obj/Debug/netcoreapp3.1/Homework5-Classes.AssemblyInfoInputs.cache
+/Users/natepaneva/Documents/GitHub/C-Sharp/Homework5-Classes/obj/Debug/netcoreapp3.1/Homework5-Classes.AssemblyInfo.cs
+/Users/natepaneva/Documents/GitHub/C-Sharp/Homework5-Classes/obj/Debug/netcoreapp3.1/Homework5-Classes.dll
+/Users/natepaneva/Documents/GitHub/C-Sharp/Homework5-Classes/obj/Debug/netcoreapp3.1/Homework5-Classes.pdb
+/Users/natepaneva/Documents/GitHub/C-Sharp/Homework5-Classes/obj/Debug/netcoreapp3.1/Homework5-Classes.genruntimeconfig.cache
