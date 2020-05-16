@@ -1,13 +1,13 @@
 ﻿<Properties StartupConfiguration="{DC6247D4-E506-408F-A081-0EFA0903E137}|Default">
   <MonoDevelop.Ide.ItemProperties.Homework5-Classes PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Domain/Owner.cs">
     <Files>
-      <File FileName="Program.cs" Line="71" Column="24" />
-      <File FileName="Domain/Animal.cs" Line="13" Column="1" />
-      <File FileName="Domain/Owner.cs" Line="1" Column="1" />
-      <File FileName="Services/AnimalService.cs" />
-      <File FileName="Services/HelperService.cs" Line="1" Column="1" />
-      <File FileName="Services/OwnerService.cs" Line="1" Column="1" />
+      <File FileName="Program.cs" Line="85" Column="1" />
+      <File FileName="Domain/Animal.cs" Line="34" Column="30" />
+      <File FileName="Domain/Owner.cs" Line="31" Column="9" />
+      <File FileName="Services/AnimalService.cs" Line="16" Column="32" />
+      <File FileName="Services/HelperService.cs" />
+      <File FileName="Services/OwnerService.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -17,12 +17,15 @@
               <Node name="Dependencies" expanded="True">
                 <Node name="FrameworkReferences" expanded="True" />
               </Node>
-              <Node name="Domain" expanded="True" />
+              <Node name="Domain" selected="True" />
               <Node name="Services" expanded="True" />
-              <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
+          <Node name="Homework5-Classes" expanded="True" />
         </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>

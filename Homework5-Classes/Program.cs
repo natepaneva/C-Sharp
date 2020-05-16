@@ -11,7 +11,7 @@ namespace Homework5_Classes
         private static HelperService _helperService = new HelperService();
         private static OwnerService _ownerService = new OwnerService();
         private static Owner _registeredOwner = null;
-        private static Owner _adoptedPets = null;
+        private static Animal _adoptedPets = null;
         
 
         static void Main(string[] args)
@@ -67,32 +67,28 @@ namespace Homework5_Classes
 
                     while (inputNumberParsed)
                     {
-                       
 
-                        _adoptedPets = _ownerService.AdoptAnimal(_animalService.petShelter, _ownerService.Owners[0], number);
+                        _adoptedPets = AnimalService.FindPet(_animalService.petShelter, number);
 
-
-                        if (_adoptedPets == null)
+                        if (_adoptedPets != null)
                         {
-                            Console.WriteLine("You didn't choose any pet :(");
+                            _ownerService.AdoptAnimal(_adoptedPets, _ownerService.Owners[0]);
                         }
                         else if (Console.ReadLine().ToLower() == "n")
                         {
-                            Console.WriteLine($"You have adopted {_adoptedPets.length} animals!");
-
-                            foreach (var pet in _adoptedPets)
-                            {
-                                Console.WriteLine($"\n{_adoptedPets[i]}. {pet}");
-                            }
-                            Console.WriteLine("Thank you!");
+                            Console.WriteLine("Thank you for the adoption!");
                             break;
                         }
-
+                       
                     }
+                    break;
+
+
                 }
 
-              
+                
             }
+           
 
         }
     }

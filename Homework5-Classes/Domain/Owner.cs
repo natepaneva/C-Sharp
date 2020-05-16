@@ -24,12 +24,11 @@ namespace Homework5_Classes.Domain
             LastName = lastName;
             City = city;
             Address = adress;
+            Pets = new Animal[0];
+
         }
 
-        public Owner()
-        {
-            Pets = new Animal[0];
-        }
+        
 
         
     }

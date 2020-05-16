@@ -8,12 +8,6 @@ namespace Homework5_Classes.Services
     public class OwnerService
     {
 
-        public Owner[] owners = new Owner[0]
-        {
-
-
-        };
-
         private HelperService _helperService = new HelperService();
         public Owner[] Owners { get; set; }
         
@@ -42,7 +36,7 @@ namespace Homework5_Classes.Services
         }
 
 
-        public string AdoptAnimal(Animal animal, Owner owner, int indexNum)
+        public void AdoptAnimal(Animal animal, Owner owner)
         {
 
             Animal[] adoptedPets = owner.Pets;
@@ -51,8 +45,8 @@ namespace Homework5_Classes.Services
             adoptedPets[adoptedPets.Length - 1] = animal;
             owner.Pets = adoptedPets;
 
-            return adoptedPets[indexNum - 1].Name;
         }
 
+      
     }
 }
