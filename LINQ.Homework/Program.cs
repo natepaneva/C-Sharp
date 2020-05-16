@@ -120,6 +120,8 @@ namespace LINQ.Homework
 
             // 6. print the names of the artists(separated with "--"), that have more than one album of PopRock genre
 
+            List<Artist> artistWithPR = new List<Artist>();
+
             Console.WriteLine("Artist that have more than one PopRock album are:");
             foreach (var artist in Artists)
             {
@@ -130,8 +132,22 @@ namespace LINQ.Homework
                 if (popRockAlbum > 1)
                 {
 
-                    Console.Write(artist.FullName + "--");
+                    artistWithPR.Add(artist);
 
+                }
+            }
+
+            int total = artistWithPR.Count - 1;
+
+            for (int i = 0; i < artistWithPR.Count; i++)
+            {
+                if (i == total)
+                {
+                    Console.Write(artistWithPR[i].FullName);
+                }
+                else
+                {
+                    Console.Write(artistWithPR[i].FullName + " == ");
                 }
             }
 

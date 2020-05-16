@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/natepaneva/Desktop/C#/Homeworks/LINQ.Homework/LINQ.Homework.csproj",
+      "projectUniqueName": "/Users/natepaneva/Documents/GitHub/C-Sharp/LINQ.Homework/LINQ.Homework.csproj",
       "projectName": "LINQ.Homework",
-      "projectPath": "/Users/natepaneva/Desktop/C#/Homeworks/LINQ.Homework/LINQ.Homework.csproj",
+      "projectPath": "/Users/natepaneva/Documents/GitHub/C-Sharp/LINQ.Homework/LINQ.Homework.csproj",
       "packagesPath": "/Users/natepaneva/.nuget/packages/",
-      "outputPath": "/Users/natepaneva/Desktop/C#/Homeworks/LINQ.Homework/obj/",
+      "outputPath": "/Users/natepaneva/Documents/GitHub/C-Sharp/LINQ.Homework/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/natepaneva/.config/NuGet/NuGet.Config"

@@ -2,12 +2,12 @@
   <MonoDevelop.Ide.ItemProperties.LINQ.Homework PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
     <Files>
-      <File FileName="Program.cs" Line="15" Column="50" />
-      <File FileName="Models/Artist.cs" Line="11" Column="1" />
+      <File FileName="Program.cs" Line="125" Column="11" />
+      <File FileName="Models/Artist.cs" />
       <File FileName="Models/ArtistType.cs" />
       <File FileName="Models/Genre.cs" />
-      <File FileName="Models/Song.cs" Line="1" Column="1" />
-      <File FileName="Models/Album.cs" Line="23" Column="36" />
+      <File FileName="Models/Song.cs" />
+      <File FileName="Models/Album.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -19,9 +19,6 @@
             </Node>
           </Node>
         </State>
-      </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
