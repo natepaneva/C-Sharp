@@ -1,0 +1,12 @@
+/Users/natepaneva/Desktop/C#/Homeworks/LINQ.Homework/bin/Debug/netcoreapp2.1/LINQ.Homework.deps.json
+/Users/natepaneva/Desktop/C#/Homeworks/LINQ.Homework/bin/Debug/netcoreapp2.1/LINQ.Homework.runtimeconfig.json
+/Users/natepaneva/Desktop/C#/Homeworks/LINQ.Homework/bin/Debug/netcoreapp2.1/LINQ.Homework.runtimeconfig.dev.json
+/Users/natepaneva/Desktop/C#/Homeworks/LINQ.Homework/bin/Debug/netcoreapp2.1/LINQ.Homework.dll
+/Users/natepaneva/Desktop/C#/Homeworks/LINQ.Homework/bin/Debug/netcoreapp2.1/LINQ.Homework.pdb
+/Users/natepaneva/Desktop/C#/Homeworks/LINQ.Homework/obj/Debug/netcoreapp2.1/LINQ.Homework.csprojAssemblyReference.cache
+/Users/natepaneva/Desktop/C#/Homeworks/LINQ.Homework/obj/Debug/netcoreapp2.1/LINQ.Homework.csproj.CoreCompileInputs.cache
+/Users/natepaneva/Desktop/C#/Homeworks/LINQ.Homework/obj/Debug/netcoreapp2.1/LINQ.Homework.AssemblyInfoInputs.cache
+/Users/natepaneva/Desktop/C#/Homeworks/LINQ.Homework/obj/Debug/netcoreapp2.1/LINQ.Homework.AssemblyInfo.cs
+/Users/natepaneva/Desktop/C#/Homeworks/LINQ.Homework/obj/Debug/netcoreapp2.1/LINQ.Homework.dll
+/Users/natepaneva/Desktop/C#/Homeworks/LINQ.Homework/obj/Debug/netcoreapp2.1/LINQ.Homework.pdb
+/Users/natepaneva/Desktop/C#/Homeworks/LINQ.Homework/obj/Debug/netcoreapp2.1/LINQ.Homework.genruntimeconfig.cache

@@ -1,0 +1,34 @@
+﻿<Properties StartupConfiguration="{5C24CAE1-B794-4947-B48D-C6C127B08415}|Default">
+  <MonoDevelop.Ide.ItemProperties.LINQ.Homework PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
+    <Files>
+      <File FileName="Program.cs" Line="15" Column="50" />
+      <File FileName="Models/Artist.cs" Line="11" Column="1" />
+      <File FileName="Models/ArtistType.cs" />
+      <File FileName="Models/Genre.cs" />
+      <File FileName="Models/Song.cs" Line="1" Column="1" />
+      <File FileName="Models/Album.cs" Line="23" Column="36" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="LINQ.Homework" expanded="True">
+            <Node name="LINQ.Homework" expanded="True">
+              <Node name="Models" expanded="True" />
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
