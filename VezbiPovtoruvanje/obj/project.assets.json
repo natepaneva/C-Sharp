@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/natepaneva/Desktop/C#/Classes/VezbiPovtoruvanje/VezbiPovtoruvanje.csproj",
+      "projectUniqueName": "/Users/natepaneva/Documents/GitHub/C-Sharp/VezbiPovtoruvanje/VezbiPovtoruvanje.csproj",
       "projectName": "VezbiPovtoruvanje",
-      "projectPath": "/Users/natepaneva/Desktop/C#/Classes/VezbiPovtoruvanje/VezbiPovtoruvanje.csproj",
+      "projectPath": "/Users/natepaneva/Documents/GitHub/C-Sharp/VezbiPovtoruvanje/VezbiPovtoruvanje.csproj",
       "packagesPath": "/Users/natepaneva/.nuget/packages/",
-      "outputPath": "/Users/natepaneva/Desktop/C#/Classes/VezbiPovtoruvanje/obj/",
+      "outputPath": "/Users/natepaneva/Documents/GitHub/C-Sharp/VezbiPovtoruvanje/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/natepaneva/.config/NuGet/NuGet.Config"

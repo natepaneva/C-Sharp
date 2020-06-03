@@ -5,126 +5,126 @@ namespace VezbiPovtoruvanje
 {
     class Program
     {
-       
+
         static void Main(string[] args)
         {
-            ////EXERCISE 3 
+            //EXERCISE 3 
 
-            //Console.WriteLine("WELCOME");
-            //Console.WriteLine("Press 1 to start the game!");
+            Console.WriteLine("WELCOME");
+            Console.WriteLine("Press 1 to start the game!");
 
-            //string[] choices = new string[] { "rock", "paper", "sciccors" };
-            //Random random = new Random();
-
-
-            //double userScore = 0;
-            //double computerScore = 0;
-
-            //string input = Console.ReadLine();
-
-            //while (true)
-            //{
-            //    if (input == "1")
-            //    {
-            //        Console.WriteLine("Pick r for rock, p for paper or s for scissors");
-            //        string userChoice = Console.ReadLine();
-
-            //        string computerChoice = random.Next(choices.Length).ToString();
-            //        if (computerChoice == "0" && userChoice == "p")
-            //        {
-            //            userScore++;
-            //            Console.WriteLine("You won!");
-            //        }
-            //        if (computerChoice == "0" && userChoice == "s")
-            //        {
-            //            computerScore++;
-            //            Console.WriteLine("You lost :(!");
-
-            //        }
-            //        if (computerChoice == "1" && userChoice == "r")
-            //        {
-            //            computerScore++;
-            //            Console.WriteLine("You lost :(!");
-
-            //        }
-            //        if (computerChoice == "1" && userChoice == "s")
-            //        {
-            //            userScore++;
-            //            Console.WriteLine("You won!");
-
-            //        }
-            //        if (computerChoice == "2" && userChoice == "r")
-            //        {
-            //            userScore++;
-            //            Console.WriteLine("You won!");
-
-            //        }
-            //        if (computerChoice == "2" && userChoice == "p")
-            //        {
-            //            computerScore++;
-            //            Console.WriteLine("You lost :(!");
-
-            //        }
-            //        if (computerChoice == "0" && userChoice == "r")
-            //        {
-            //            Console.WriteLine("It's tie");
-
-            //        }
-            //        if (computerChoice == "1" && userChoice == "p")
-            //        {
-            //            Console.WriteLine("It's tie");
-
-            //        }
-            //        if (computerChoice == "2" && userChoice == "s")
-            //        {
-            //            Console.WriteLine("It's tie");
-
-            //        }
-
-            //        Console.WriteLine("Press 1 to continue playing, 2 to stop and view the statistics and 3 to Exit");
-            //        input = Console.ReadLine();
-            //    }
-            //    if (input == "2")
-            //    {
-
-            //        double total = userScore + computerScore;
-            //        double userScorePersentage;
-            //        double computerScorePersentage;
-            //        if (userScore != 0)
-            //        {
-            //            userScorePersentage = Math.Round(userScore / total * 100, 2);
-            //        }
-            //        else
-            //        {
-            //            userScorePersentage = 0;
-            //        }
-
-            //        if (computerScore != 0)
-            //        {
-            //            computerScorePersentage = Math.Round(computerScore / total * 100, 2);
-            //        }
-            //        else
-            //        {
-            //            computerScorePersentage = 0;
-            //        }
+            string[] choices = new string[] { "rock", "paper", "sciccors" };
+            Random random = new Random();
 
 
-            //        Console.WriteLine($"The computer have won {computerScorePersentage}% of total games played!");
-            //        Console.WriteLine($"You have won has {userScorePersentage}% of total games played!");
+            double userScore = 0;
+            double computerScore = 0;
 
-            //        Console.WriteLine("Press 1 to play again or and 3 to exit");
-            //        userScore = 0;
-            //        computerScore = 0;
-            //        input = Console.ReadLine();
+            string input = Console.ReadLine();
 
-            //    }
-            //    if (input == "3")
-            //    {
-            //        Console.WriteLine("Thanks for playing our game. Bye!");
-            //        break;
-            //    }
+            while (true)
+            {
+                if (input == "1")
+                {
+                    Console.WriteLine("Pick r for rock, p for paper or s for scissors");
+                    string userChoice = Console.ReadLine();
 
-            //}
+                    string computerChoice = random.Next(choices.Length).ToString();
+                    if (computerChoice == "0" && userChoice == "p")
+                    {
+                        userScore++;
+                        Console.WriteLine("You won!");
+                    }
+                    if (computerChoice == "0" && userChoice == "s")
+                    {
+                        computerScore++;
+                        Console.WriteLine("You lost :(!");
+
+                    }
+                    if (computerChoice == "1" && userChoice == "r")
+                    {
+                        computerScore++;
+                        Console.WriteLine("You lost :(!");
+
+                    }
+                    if (computerChoice == "1" && userChoice == "s")
+                    {
+                        userScore++;
+                        Console.WriteLine("You won!");
+
+                    }
+                    if (computerChoice == "2" && userChoice == "r")
+                    {
+                        userScore++;
+                        Console.WriteLine("You won!");
+
+                    }
+                    if (computerChoice == "2" && userChoice == "p")
+                    {
+                        computerScore++;
+                        Console.WriteLine("You lost :(!");
+
+                    }
+                    if (computerChoice == "0" && userChoice == "r")
+                    {
+                        Console.WriteLine("It's tie");
+
+                    }
+                    if (computerChoice == "1" && userChoice == "p")
+                    {
+                        Console.WriteLine("It's tie");
+
+                    }
+                    if (computerChoice == "2" && userChoice == "s")
+                    {
+                        Console.WriteLine("It's tie");
+
+                    }
+
+                    Console.WriteLine("Press 1 to continue playing, 2 to stop and view the statistics and 3 to Exit");
+                    input = Console.ReadLine();
+                }
+                if (input == "2")
+                {
+
+                    double total = userScore + computerScore;
+                    double userScorePersentage;
+                    double computerScorePersentage;
+                    if (userScore != 0)
+                    {
+                        userScorePersentage = Math.Round(userScore / total * 100, 2);
+                    }
+                    else
+                    {
+                        userScorePersentage = 0;
+                    }
+
+                    if (computerScore != 0)
+                    {
+                        computerScorePersentage = Math.Round(computerScore / total * 100, 2);
+                    }
+                    else
+                    {
+                        computerScorePersentage = 0;
+                    }
+
+
+                    Console.WriteLine($"The computer have won {computerScorePersentage}% of total games played!");
+                    Console.WriteLine($"You have won has {userScorePersentage}% of total games played!");
+
+                    Console.WriteLine("Press 1 to play again or and 3 to exit");
+                    userScore = 0;
+                    computerScore = 0;
+                    input = Console.ReadLine();
+
+                }
+                if (input == "3")
+                {
+                    Console.WriteLine("Thanks for playing our game. Bye!");
+                    break;
+                }
+
+            }
 
 
 
@@ -158,7 +158,7 @@ namespace VezbiPovtoruvanje
             //            else
             //            {
             //                Console.WriteLine("Sorry you have to work today");
-                           
+
             //            }
             //            break;
             //        }
