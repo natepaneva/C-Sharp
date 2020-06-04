@@ -11,7 +11,7 @@ namespace VezbiPovtoruvanje
             //EXERCISE 3 
 
             Console.WriteLine("WELCOME");
-            Console.WriteLine("Press 1 to start the game!");
+            Console.WriteLine("Press 1 to start the game or 3 to exit!");
 
             string[] choices = new string[] { "rock", "paper", "sciccors" };
             Random random = new Random();
@@ -33,50 +33,59 @@ namespace VezbiPovtoruvanje
                     if (computerChoice == "0" && userChoice == "p")
                     {
                         userScore++;
+                        Console.WriteLine($"The computer choice is rock");
                         Console.WriteLine("You won!");
                     }
                     if (computerChoice == "0" && userChoice == "s")
                     {
                         computerScore++;
+                        Console.WriteLine($"The computer choice is rock");
                         Console.WriteLine("You lost :(!");
 
                     }
                     if (computerChoice == "1" && userChoice == "r")
                     {
                         computerScore++;
+                        Console.WriteLine($"The computer choice is paper");
                         Console.WriteLine("You lost :(!");
 
                     }
                     if (computerChoice == "1" && userChoice == "s")
                     {
                         userScore++;
+                        Console.WriteLine($"The computer choice is paper");
                         Console.WriteLine("You won!");
 
                     }
                     if (computerChoice == "2" && userChoice == "r")
                     {
                         userScore++;
+                        Console.WriteLine($"The computer choice is scissors");
                         Console.WriteLine("You won!");
 
                     }
                     if (computerChoice == "2" && userChoice == "p")
                     {
                         computerScore++;
+                        Console.WriteLine($"The computer choice is scissors");
                         Console.WriteLine("You lost :(!");
 
                     }
                     if (computerChoice == "0" && userChoice == "r")
                     {
+                        Console.WriteLine($"The computer choice is rock");
                         Console.WriteLine("It's tie");
 
                     }
                     if (computerChoice == "1" && userChoice == "p")
                     {
+                        Console.WriteLine($"The computer choice is paper");
                         Console.WriteLine("It's tie");
 
                     }
                     if (computerChoice == "2" && userChoice == "s")
                     {
+                        Console.WriteLine($"The computer choice is scissors");
                         Console.WriteLine("It's tie");
 
                     }
