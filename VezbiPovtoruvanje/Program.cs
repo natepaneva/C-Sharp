@@ -74,19 +74,19 @@ namespace VezbiPovtoruvanje
             //        if (computerChoice == "0" && userChoice == "r")
             //        {
             //            Console.WriteLine($"The computer choice is rock");
-            //            Console.WriteLine("It's tie");
+            //            Console.WriteLine("It's a tie");
 
             //        }
             //        if (computerChoice == "1" && userChoice == "p")
             //        {
             //            Console.WriteLine($"The computer choice is paper");
-            //            Console.WriteLine("It's tie");
+            //            Console.WriteLine("It's a tie");
 
             //        }
             //        if (computerChoice == "2" && userChoice == "s")
             //        {
             //            Console.WriteLine($"The computer choice is scissors");
-            //            Console.WriteLine("It's tie");
+            //            Console.WriteLine("It's a tie");
 
             //        }
 
@@ -150,7 +150,7 @@ namespace VezbiPovtoruvanje
 
                 if (weekday == "Saturday" || weekday == "Sunday")
                 {
-                    Console.WriteLine($"It is a weekend day. Have fun!");
+                    Console.WriteLine($"It's a weekend day. Have fun!");
                 }
 
                 else
